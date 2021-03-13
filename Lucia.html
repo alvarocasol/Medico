@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lucia</title>
+	</head>
+	<body>
+		<header>
+			<h1>Lucía Pérez</h1>
+		</header>
+		<h3>Graduación Lentes</h3>
+		<div>Graduacion ojo Izquierdo: 2.25</div>
+		<div>Graduacion ojo Derecho: 2.00</div>
+		<div>
+			<h3>Alergias</h1>
+		</div>
+		<div>
+			<ul>
+				<li>Rinitis Alergica</li>
+				<li>Inmidasoles</li>
+			</ul>
+		</div>
+		<h3>Tipo de Sangre</h3>
+		<p>O Negativo</p>
+		<h3>Cumpleaños y Edad</h3>
+		<p>
+			<script> 
+				var r = new Date();
+				var y = new Date(1993,6,22);
+				document.write("Year: " + y.getFullYear()+"<br>");
+				document.write("Month: " + (y.getMonth()+1)+"<br>");
+				document.write("Day: " + y.getDate()+"<br>");
+				document.write("<br>")
+				
+				var funciona = new Date(r-y).getFullYear() - 1970;
+				document.write("Age: " +funciona);
+				
+			</script>
+		</p>
+		<h3>Dieta</h3>
+		<p>Vegetarina</p>
+	</body>
+</html>
